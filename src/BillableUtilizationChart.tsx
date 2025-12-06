@@ -40,7 +40,7 @@ const BillableUtilizationChart: React.FC<Props> = ({
     dataLabels: {
       enabled: true,
       formatter: (val: number) => `${val.toFixed(1)}%`,
-      dropShadow: false,
+      // dropShadow: false,
     },
   };
 
